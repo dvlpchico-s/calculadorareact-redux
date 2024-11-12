@@ -1,0 +1,46 @@
+#calc_canva {
+    background: linear-gradient(to right, black, darkred);
+    width: 20vw;
+    margin: 10%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 10% wheat;
+    border: solid 10px gold;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.button {
+    margin: 0;
+    width: 100%;
+}
+
+#equals {
+    grid-column: span 2;
+    background-color: red;
+    color: white;
+}
+
+#clear {
+    background-color: red;
+    color: white;
+}
+
+#display {
+    background-color: black;
+    color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}    
+
+#calc {
+    font-size: 24px;
+}

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: iron;
+    src: url(./iron_maiden/maiden.ttf);
+}
+
+h1{
+    color: gold;
+    font-family: iron;
+    margin: 5vh;
+}
